@@ -1,0 +1,31 @@
+.cart-top{
+    display: flex;
+    min-height: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    position: relative;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 0.25px;
+}
+.item{
+    margin: 0 5%;
+    text-align: center;
+}
+.card h5,p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width:100ch;
+}
+.card img{
+    width:200px;
+    height: 200px;
+    margin-bottom: 15px;
+    transition: 0.3s ease-in-out;
+}
+.card{
+    padding: 20px;
+    margin:20px;
+}

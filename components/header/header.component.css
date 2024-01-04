@@ -1,0 +1,17 @@
+header strong{
+    font-size: 25px;
+    padding: 30px;
+}
+i{
+    font-size: 30px;
+}
+.form-group{
+    padding-right: 25%;
+}
+.form-control{
+    width: 600px;
+}
+button i{
+    padding-right: 20px;
+    font-size: 30px;
+}
